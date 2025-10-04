@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         app: myapp
+        app1:myapp
     spec:
       containers:
       - name: myapp
