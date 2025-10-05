@@ -15,5 +15,6 @@ spec:
       containers:
       - name: myapp
         image: billy/myapp:latest
+        imagePullPolicy: Always  # Optional: Ensures pulling the image always on deployment update
         ports:
         - containerPort: 8080
